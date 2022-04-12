@@ -31,6 +31,7 @@
         <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
         <freemarker.version>2.3.30</freemarker.version>
         <org.mapstruct.version>1.5.0.RC1</org.mapstruct.version>
+        <sa-token.version>1.29.0</sa-token.version>
     </properties>
 
     <dependencyManagement>

@@ -1,5 +1,6 @@
 package com.knight.cat.controller;
 
+import com.knight.cat.annotation.NoPermission;
 import com.knight.cat.model.vo.UserVo;
 import com.knight.cat.service.IUserService;
 import com.knight.cat.util.mapping.UserMapping;

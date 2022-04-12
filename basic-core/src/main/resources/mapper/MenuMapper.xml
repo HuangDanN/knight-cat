@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knight.cat.mapper.MenuMapper">
+
+    <select id="getUserMenu" resultType="com.knight.cat.model.dto.UserMenuDTO">
+        select distinct d.menu_url, d.menu_code
+        from t_user_role t
+        left join t_role_menu c on t.role_id = c.role_id
+        left join t_menu d on c.menu_id = d.id
+        where t.user_id = #{userId}
+    </select>
+
+</mapper>

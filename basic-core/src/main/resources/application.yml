@@ -17,7 +17,10 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
+  web:
+    resources:
+      add-mappings: false
   mvc:
     throw-exception-if-no-handler-found: true
   profiles:
-    include: mybatis
+    include: mybatis, saToken

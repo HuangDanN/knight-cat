@@ -7,10 +7,10 @@ import java.lang.annotation.Target;
 
 /**
  * @author : xn-h
- * @date: 2022/4/4  21:33
- * @description: 不需要封装成resultBody类
+ * @date: 2022/4/12  14:21
+ * @description: 不需要权限
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD})
-public @interface NotResultBody {
+public @interface NoPermission {
 }

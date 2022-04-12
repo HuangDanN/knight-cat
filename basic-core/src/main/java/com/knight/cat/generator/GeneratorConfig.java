@@ -44,7 +44,7 @@ public class GeneratorConfig {
                 })
                 .strategyConfig(builder -> {
                     builder
-                            .addInclude("t_user") // 设置需要生成的表名
+                            .addInclude("t_menu,t_role,t_role_menu,t_user_role") // 设置需要生成的表名
                             .addTablePrefix("t_", "c_")
                             .entityBuilder().superClass(BaseModelParent.class); // 设置过滤表前缀
 

@@ -1,5 +1,9 @@
 package com.knight.cat.model.vo;
 
+import com.knight.cat.model.dto.UserMenuDTO;
+
+import java.util.List;
+
 /**
  * @author : xn-h
  * @date: 2022/4/4  19:12
@@ -21,6 +25,19 @@ public class UserVo {
      * 用户名
      */
     private String userName;
+
+    /**
+     * 用户菜单信息
+     */
+    private List<UserMenuDTO> userMenus;
+
+    public List<UserMenuDTO> getUserMenus() {
+        return userMenus;
+    }
+
+    public void setUserMenus(List<UserMenuDTO> userMenus) {
+        this.userMenus = userMenus;
+    }
 
     public Integer getId() {
         return id;

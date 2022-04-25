@@ -15,3 +15,5 @@
 ## mapstruct Bean互转框架
 ### 官方网站 https://mapstruct.org/documentation/installation/
 
+## SaToken 轻量级 Java 权限认证框架
+### https://sa-token.dev33.cn/doc/index.html#/

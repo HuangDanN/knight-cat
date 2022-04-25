@@ -3,7 +3,6 @@ package com.knight.cat.configuration;
 import cn.dev33.satoken.interceptor.SaRouteInterceptor;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.extra.servlet.ServletUtil;
 import com.knight.cat.annotation.NoPermission;
 import com.knight.cat.enums.ResultCodeEnum;
 import com.knight.cat.exception.BaseException;
